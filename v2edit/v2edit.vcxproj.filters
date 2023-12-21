@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{8627a749-6e86-4d3d-b2c4-780f43ac7e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\tool">
+      <UniqueIdentifier>{88ffdfa7-157b-4bb8-8d59-57f85126942b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst2">
+      <UniqueIdentifier>{6315f755-67a2-4490-b149-29c95328ed11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\e2p">
+      <UniqueIdentifier>{5253dc70-58ac-44ce-ab63-87db2425dfc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\tool\file.cpp">
+      <Filter>common\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sounddef.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\v2mconv.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="midi.cpp" />
+    <ClCompile Include="v2mrecorder.cpp" />
+    <ClCompile Include="vstiext.cpp" />
+    <ClCompile Include="..\vst2\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp">
+      <Filter>vst2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vst2\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp">
+      <Filter>vst2</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp" />
+    <ClCompile Include="..\e2p\english.c">
+      <Filter>common\e2p</Filter>
+    </ClCompile>
+    <ClCompile Include="..\e2p\parse2.c">
+      <Filter>common\e2p</Filter>
+    </ClCompile>
+    <ClCompile Include="..\e2p\phoneme.c">
+      <Filter>common\e2p</Filter>
+    </ClCompile>
+    <ClCompile Include="..\e2p\saynum.c">
+      <Filter>common\e2p</Filter>
+    </ClCompile>
+    <ClCompile Include="..\e2p\spellwor.c">
+      <Filter>common\e2p</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\tool\file.h">
+      <Filter>common\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sounddef.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\v2mconv.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="midi.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="v2mrecorder.h" />
+    <ClInclude Include="v2api.h" />
+    <ClInclude Include="v2host.h" />
+    <ClInclude Include="v2view.h" />
+    <ClInclude Include="v2vsti.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\vst2\vstsdk2.4\public.sdk\source\vst2.x\aeffeditor.h">
+      <Filter>vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vst2\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.h">
+      <Filter>vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vst2\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.h">
+      <Filter>vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="multibutton.h" />
+    <ClInclude Include="offscreenpaint.h" />
+    <ClInclude Include="v2appearance.h" />
+    <ClInclude Include="..\synth.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="v2interfaces.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="console.h" />
+    <ClInclude Include="v2parameters.h" />
+    <ClInclude Include="channel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wtlbla.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="v2logo.bmp" />
+    <Image Include="v2logo2003.bmp" />
+    <Image Include="v2logo2003x2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="v2edit.def" />
+    <None Include="presets.v2b" />
+  </ItemGroup>
+</Project>

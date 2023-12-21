@@ -1,0 +1,3 @@
+Tested to build against VST2 SDK version 2.4rev2.
+Sadly it is no longer available from official sources (see https://github.com/steinbergmedia/vst3sdk/issues/51), however a copy can still be found in the Internet Archive.
+https://web.archive.org/web/20161002042955/http://www.steinberg.net/sdk_downloads/vst_sdk2_4_rev2.zip

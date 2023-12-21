@@ -1,0 +1,12 @@
+_build
+bin
+
+*.user
+.vs/
+
+wtl/*
+!wtl/PUT_WTL_HERE.txt
+vst2/*
+!vst2/PUT_VST2_SDK_HERE.txt
+winamp/*
+!winamp/PUT_WINAMP_SDK_HERE.txt

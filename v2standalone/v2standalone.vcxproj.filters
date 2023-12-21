@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Image Include="fvs32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="v2standalone.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="aboutdlg.h" />
+    <ClInclude Include="mainfrm.h" />
+    <ClInclude Include="midi.h" />
+    <ClInclude Include="multibutton.h" />
+    <ClInclude Include="wtlblaview.h" />
+    <ClInclude Include="..\sounddef.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\soundsys.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tool\file.h">
+      <Filter>common\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\v2mconv.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="midi.cpp" />
+    <ClCompile Include="wtlbla.cpp" />
+    <ClCompile Include="..\sounddef.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\soundsys.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tool\file.cpp">
+      <Filter>common\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\v2mconv.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{e5729212-02d1-4dbf-b75c-065aa725c0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\file">
+      <UniqueIdentifier>{6bccdbba-d0c6-4917-8bb4-9ca1893b6b8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

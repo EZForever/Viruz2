@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="vst2">
+      <UniqueIdentifier>{82091a2e-e0fb-44e1-96ef-f8c4be25407a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v2edit">
+      <UniqueIdentifier>{35006fce-8497-4f98-805e-0bddb3ef2f74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\vst2\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp">
+      <Filter>vst2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vst2\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp">
+      <Filter>vst2</Filter>
+    </ClCompile>
+    <ClCompile Include="v2vsti.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\vst2\vstsdk2.4\public.sdk\source\vst2.x\aeffeditor.h">
+      <Filter>vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vst2\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.h">
+      <Filter>vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vst2\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.h">
+      <Filter>vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="v2vsti.h" />
+    <ClInclude Include="..\v2edit\common.h">
+      <Filter>v2edit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\v2edit\v2interfaces.h">
+      <Filter>v2edit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="v2vsti.def" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+Tested to build against WTL10 build 10320.
+You can get this version from https://sourceforge.net/projects/wtl/files/WTL%2010/WTL%2010.0.10320%20Release/

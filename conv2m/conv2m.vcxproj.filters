@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="conv2m.cpp" />
+    <ClCompile Include="..\tool\file.cpp">
+      <Filter>common\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sounddef.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\v2mconv.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{6cc46ede-9a05-4260-91c4-9acba515feac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\tool">
+      <UniqueIdentifier>{41817a18-f1c4-4e35-ab09-bb4011faaa71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\tool\file.h">
+      <Filter>common\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sounddef.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\v2mconv.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

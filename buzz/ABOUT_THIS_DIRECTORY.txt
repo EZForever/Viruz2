@@ -1,0 +1,9 @@
+The headers for building a Buzz machine, namely "MachineInterface[TL].h", are actually left in the original source tree, despite having a "PLACE_BUZZ_HEADERS_HERE" notice.
+
+"MachineInterface.h"'s license (as noted on http://jeskola.net/buzz/beta/files/dev/) actually prohibited redistribution under a freeware license, so ... well :)
+However since other projects are doing the same thing (e.g. https://github.com/Buzztrax/buzzmachines/blob/62a7a5b/common/MachineInterface.h), I'm going to keep it here.
+
+As for "MachineInterfaceTL.h"... Well, tough luck; I cannot find any source of this file. The Internet Archive do still have a copy of the author's website, though it only mentions a (seemingly irrelevant) product called the "Quence Construct", and the download for it is long gone.
+
+In short, it is probably a license violation to include these files in the source tree. But hey, kb/Fabruasch did it first :)
+(All this for building a obselete plugin for a obselete software...)

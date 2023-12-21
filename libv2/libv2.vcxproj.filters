@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\dsio.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libv2.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\phonemtab.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\synth.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\dsio_cpp.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ronan.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\synth_core.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{f7ab55ad-51a6-4ffd-a131-9bff216429e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

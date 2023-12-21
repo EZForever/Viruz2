@@ -1,0 +1,2 @@
+EXPORTS			GetInfo
+EXPORTS			CreateMachine

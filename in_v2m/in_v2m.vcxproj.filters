@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="in_v2m.cpp" />
+    <ClCompile Include="..\sounddef.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\soundsys.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\v2mconv.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tool\file.cpp">
+      <Filter>common\tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="winamp">
+      <UniqueIdentifier>{a229c0fa-40fd-4656-8e62-801ba3fec1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{b5fc9a60-7f37-40ba-aeeb-0911b0e8f942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\tool">
+      <UniqueIdentifier>{7f4fa784-4ed9-42f0-8ea2-20d6214ce322}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\winamp\Winamp\IN2.H">
+      <Filter>winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\winamp\Winamp\OUT.H">
+      <Filter>winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sounddef.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\soundsys.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\v2mconv.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tool\file.h">
+      <Filter>common\tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

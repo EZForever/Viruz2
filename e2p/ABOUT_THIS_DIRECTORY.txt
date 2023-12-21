@@ -1,0 +1,17 @@
+The original project for v2edit.dle (vsti/vsti.vcxproj) mentions a couple of missing files:
+    <ClCompile Include="..\kram\e2p\english.c" />
+    <ClCompile Include="..\kram\e2p\parse.c" />
+    <ClCompile Include="..\kram\e2p\phoneme.c" />
+    <ClCompile Include="..\kram\e2p\saynum.c" />
+    <ClCompile Include="..\kram\e2p\spellwor.c" />
+
+Base on some Internet searches I assume it is the "english2phoneme" package.
+The website for this package is still online: http://svr-www.eng.cam.ac.uk/comp.speech/Section5/Synth/text.phoneme.3.html
+However unfortunately the download link (to a FTP site) is broken.
+
+Copies of the package sources can be seen all over GitHub, e.g. https://github.com/mattyoung101/LESS/tree/ca5508e/resources/english2phoneme
+All the files in this directory is directly taken from that repository except "parse2.c".
+The implementation of "e2p_initio" and "e2p_main" is not in the sources (probably added by kb). I made one up in "parse2.c" (modifying "parse.c"), and it seems to work identically with the official build.
+
+As noted by John A. Wasser in the README file, this package is in public domain.
+Note that this is K&R C, which is super old and MSVC complains quite a lot when compiling it.

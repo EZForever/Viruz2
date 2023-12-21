@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="v2buzz.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="v2buzz.h" />
+    <ClInclude Include="..\buzz\MachineInterface.h">
+      <Filter>buzz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\buzz\MachineInterfaceTL.h">
+      <Filter>buzz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\v2edit\common.h">
+      <Filter>v2edit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\v2edit\v2interfaces.h">
+      <Filter>v2edit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="buzz">
+      <UniqueIdentifier>{7e05e223-bea2-4720-b222-de9be94ec874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v2edit">
+      <UniqueIdentifier>{53cbba05-eef5-4324-94b3-d9f1015117de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="v2buzz.def" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+Tested to build against Winamp 5.55 SDK.
+You can get this version from http://download.nullsoft.com/winamp/plugin-dev/WA5.55_SDK.exe
