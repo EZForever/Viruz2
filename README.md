@@ -29,7 +29,7 @@ Well, *challenge accepted*. And here we are, after days of painfully digging thr
     - As above this codebase is no longer focused on small and efficent code. If you wished to use it in some intros then you're doing it wrong.
 - RONAN is behaving erratically on old (Candytron-era) V2Ms. Untested if new(er) V2Ms are affected by this.
     - This problem is also in other source ports (e.g. [Chip Player JS](https://chiptune.app/)). I wonder if the public V2 code is just too new...
-    - If you wish to take a look at this problem, ["fr_public"](https://github.com/farbrausch/fr_public) has lots of different versions of V2 code scattered everywhere in to repo, including [the version used by Candytron](https://githubfast.com/farbrausch/fr_public/blob/ca1d8dc/genthree/ronan.cpp).
+    - If you wish to take a look at this problem, ["fr_public"](https://github.com/farbrausch/fr_public) has lots of different versions of V2 code scattered everywhere in to repo, including [the version used by Candytron](https://github.com/farbrausch/fr_public/blob/ca1d8dc/genthree/ronan.cpp).
 - **No further support or maintenance will ever be provided.**
     - I've got a copy of someone else's code, fixed it, compiled it, and that's it. Keep that in your mind if you want to fire a issue or anything.
     - Besides, v2edit's code is already butchered beyond belief to even look at...
